@@ -29,7 +29,7 @@
   margin-left: 80px;
   display: flex;
   list-style-type: none;
-  gap: 10px;
+  gap: 40px;
   margin-top: 50px;
 }
 
@@ -122,6 +122,29 @@
   width: 140px;
 }
 
+.brand img:nth-child(1) {
+  margin-left: 20px;
+}
+
+.brand img:nth-child(2) {
+  margin-left: 30px;
+}
+
+.brand img:nth-child(3) {
+  margin-left: 30px;
+}
+
+.brand img:nth-child(4) {
+  margin-left: 30px;
+}
+
+.brand img:nth-child(5) {
+  margin-left: 30px;
+}
+
+.brand img:nth-child(6) {
+  margin-left: 30px;
+}
 
 /* perfect */
 
@@ -159,8 +182,9 @@
 }
 
 .perfect img {
-  width: 550px;
-  height: 500px;
+  margin-top: -70px;
+  width: 800px;
+  height: 600px;
 }
 
 /* grow */
@@ -254,27 +278,30 @@
 /* should */
 
 .should {
+  height: 670px;
   margin-top: 100px;
   background: #FAFAFA;
-
 }
 
 .should h2 {
+  padding-top: 40px;
   text-align: center;
 }
 
 .should p {
   text-align: center;
-  margin-left: 150px;
+  margin-left: 300px;
   width: 600px;
 }
 
 .should-1 {
   display: flex;
+  gap: 50px;
 }
 
 .should-1-1 {
   width: 300px;
+  margin-left: 50px;
 }
 
 .should-1-1 img {
@@ -385,4 +412,271 @@
   background: #FFFFFF;
   box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.3);
   transition: 0.7s;
+}
+
+
+/* may */
+
+/* .may {
+  background: #FFFFFF;
+  display: flex;
+  margin-top: 100px;
+  margin-left: -80px;
+}
+
+.may-one img {
+  width: 600px;
+  height: 400px;
+}
+
+.FCD5C8 {
+  background: #FCD5C8;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+} */
+
+
+.reyting {
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+  width: 1123px;
+  border: 2px solid #EEEEEE;
+}
+
+.reyting p {
+  opacity: 0.5;
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+.reyting div:nth-child(1) {
+  margin-left: 150px;
+}
+
+.reyting-bg1 {
+  width: 15px;
+  height: 15px;
+  background-color: #F3602D;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 120px;
+}
+
+.reyting-bg2 {
+  width: 15px;
+  height: 15px;
+  background-color: #149211;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 120px;
+}
+
+.reyting-bg3 {
+  width: 15px;
+  height: 15px;
+  background-color: #FFC700;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 150px;
+}
+
+
+.check {
+  display: flex;
+  margin-top: 100px;
+}
+
+.check h2 {
+  width: 450px;
+  margin-top: 150px;
+  font-size: 38px;
+}
+
+.check p {
+  opacity: 0.5;
+}
+
+.btn-1 {
+  margin-top: 35px;
+  width: 190px;
+  border: none;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.btn-2{
+  margin-left: 50px;
+  border-radius: 25px;
+  width: 190px;
+  height: 50px;
+  border: none;
+  background: #f25822;
+  color: white;
+}
+
+.check img {
+  width: 790px;
+  height: 550px;
+}
+
+
+/* tariflar */
+
+.tariflar {
+  display: flex;
+  gap: 20px;
+  background: #f7f5f5;
+  margin-top: 100px;
+  width: 1200px;
+  height: 712px;
+}
+
+.tariflar-one {
+  margin-top: 200px;
+  margin-left: 20px;
+  background: #FFFFFF;
+  width: 370px;
+  height: 400px;
+}
+
+.tariflar-one:hover {
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.2);
+  height: 420px;
+  transition: 1s;
+}
+
+.tariflar-one button:hover {
+  background: red;
+  transition: 1s;
+}
+
+.tariflar-one h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tariflar-one sup {
+  margin-left: -10px;
+  font-size: 18px;
+}
+
+.tariflar-one-span-one{
+  font-size: 50px;
+}
+
+.tariflar-one p {
+  font-size: 16px;
+  line-height: 250%;
+  text-align: center;
+  color: #666666;
+}
+
+.tariflar-one button {
+  width: 150px;
+  height: 40px;
+  margin-left: 70px;
+  background: rgba(242, 88, 34, 0.25);
+  border: none;
+  border-radius:15px;
+}
+
+
+
+.tariflar-two {
+  background: #FFFFFF;
+  margin-top: 200px;
+  width: 370px;
+  height: 400px;
+}
+
+.tariflar-two:hover {
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.2);
+  height: 420px;
+  transition: 1s;
+}
+
+.tariflar-two button:hover {
+  transition: 1s;
+  background: red;
+}
+
+.tariflar-two h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tariflar-two sup {
+  margin-left: -10px;
+  font-size: 18px;
+}
+
+.tariflar-one-span-one{
+  font-size: 50px;
+}
+
+.tariflar-two p {
+  font-size: 16px;
+  line-height: 250%;
+  text-align: center;
+  color: #666666;
+}
+
+.tariflar-two button {
+  width: 150px;
+  height: 40px;
+  margin-left: 70px;
+  background: rgba(242, 88, 34, 0.25);
+  border: none;
+  border-radius:15px;
+}
+
+
+.tariflar-theree {
+  background: #FFFFFF;
+  margin-top: 200px;
+  width: 370px;
+  height: 400px;
+}
+
+.tariflar-theree:hover {
+  box-shadow: 15px 25px 70px -5px rgba(0, 0, 0, 0.2);
+  height: 420px;
+  transition: 1s;
+}
+
+.tariflar-theree button:hover {
+  background: red;
+  transition: 1s;
+}
+
+.tariflar-theree h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tariflar-theree sup {
+  margin-left: -10px;
+  font-size: 18px;
+}
+
+.tariflar-one-span-one{
+  font-size: 50px;
+}
+
+.tariflar-theree p {
+  font-size: 16px;
+  line-height: 250%;
+  text-align: center;
+  color: #666666;
+}
+
+.tariflar-theree button {
+  width: 150px;
+  height: 40px;
+  margin-left: 70px;
+  background: rgba(242, 88, 34, 0.25);
+  border: none;
+  border-radius:15px;
 }
